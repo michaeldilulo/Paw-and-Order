@@ -1,0 +1,63 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+i.fas.fa-paw::before {
+    padding-right: 7px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.bottom-paw-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 50px 0px;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+    background: url(//placehold.it/150x150)
+}
+
+.card {
+    max-width: 50%;
+    margin: auto;
+}
+
+    .paw-cards {
+        margin-top: 50px;
+    }
+    hr {
+        margin: 50px 0px;
+    }
+    .paw-top-section {
+        margin-top: 50px;
+    }
+    .paw-footer-email {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+@media(max-width: 400px) {
+    .paw-cards {
+        margin-top: 50px;
+    }
+    .paw-footer {
+        display: flex;
+        justify-content: center;
+    }
+    hr {
+        margin: 50px 0px;
+    }
+    .paw-top-section {
+        margin-top: 50px;
+    }
+}
