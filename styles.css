@@ -34,25 +34,27 @@ hr {
 }
 
 .circle {
-    height: 150px;
-    width: 150px;
-    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border: 4px solid #E8D3A2;
     border-radius: 50%;
     margin: auto;
     margin-bottom: 15px;
-    background: url(//placehold.it/150x150)
+    background: url(puppycardimage.jpg);
+    background-size: contain;
 }
 
 .card {
     max-width: 50%;
     margin: auto;
+    background-color: #E8D3A2;
 }
 
     .paw-cards {
         margin-top: 50px;
     }
     hr {
-        margin: 50px 0px;
+        margin: 100px 0px;
     }
     .paw-top-section {
         margin-top: 125px;
@@ -108,6 +110,11 @@ hr {
         color: #363C74;
     }
 
+    .paw-card-buttons {
+        background-color: #363C74;
+        color: #E8D3A2;
+    }
+
 @media(max-width: 400px) {
     .paw-cards {
         margin-top: 50px;
@@ -135,4 +142,9 @@ hr {
         margin-left: 50px;
         margin-bottom: 20px;
     }
+    .card {
+    max-width: 80%;
+    margin: auto;
+    background-color: #E8D3A2;
+}
 }
