@@ -2,12 +2,28 @@
     outline: 1px solid red;
 } */
 
+body {
+    background-color: #363C74;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    font-family: Ranchers, sans-serif;
+    font-size: 25px;
+}
+.navbar i span.paw-navbar-title {
+    font-family: Ranchers, sans-serif;
+    font-size: 25px;
+}
 i.fas.fa-paw::before {
     padding-right: 7px;
+    font-size: 25px;
 }
 
 hr {
-    border: 1px solid black;
+    border: 1px solid #E8D3A2;
 }
 
 .bottom-paw-icon {
@@ -39,11 +55,57 @@ hr {
         margin: 50px 0px;
     }
     .paw-top-section {
-        margin-top: 50px;
+        margin-top: 125px;
     }
     .paw-footer-email {
         display: flex;
         justify-content: flex-end;
+    }
+    .paw-footer-section {
+        background-color: #363C74;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #E8D3A2;
+    }
+
+    .bottom-paw-icon i.fas.fa-paw::before {
+        font-size: 65px;
+    }
+
+    .paw-second-bottom-section {
+        background-color: #363C74;
+        color: #E8D3A2;
+    }
+
+    .puppy-with-treats {
+        max-height: 600px;
+        max-width: 600px;
+        border: 5px solid #E8D3A2;
+        border-radius: 20px;
+    }
+
+    .paw-pup-treats {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .paw-information-section {
+        max-width: 33%;
+        border: 5px solid #E8D3A2;
+        border-radius: 20px;
+        color: #E8D3A2;
+        padding-top: 15px;
+        padding-bottom: 12px;
+    }
+
+    .paw-information-treats-section {
+        background-color: #363C74;
+    }
+
+    button.btn.btn-primary {
+        background-color: #E8D3A2;
+        color: #363C74;
     }
 
 @media(max-width: 400px) {
@@ -58,6 +120,19 @@ hr {
         margin: 50px 0px;
     }
     .paw-top-section {
-        margin-top: 50px;
+        margin-top: 125px;
+    }
+        .puppy-with-treats {
+        max-height: 300px;
+        max-width: 300px;
+        border: 5px solid #E8D3A2;
+        border-radius: 20px;
+    }
+        .paw-information-section {
+        max-width: 100%;
+    }
+    button.btn.btn-primary.paw-menu-items {
+        margin-left: 50px;
+        margin-bottom: 20px;
     }
 }
