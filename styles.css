@@ -13,6 +13,15 @@ html {
     font-family: Ranchers, sans-serif;
     font-size: 25px;
 }
+
+.paw-navbar-title {
+    color: #E8D3A2;
+}
+
+.navbar a.nav-link {
+    color: #E8D3A2;
+}
+
 .navbar i span.paw-navbar-title {
     font-family: Ranchers, sans-serif;
     font-size: 25px;
@@ -20,6 +29,7 @@ html {
 i.fas.fa-paw::before {
     padding-right: 7px;
     font-size: 25px;
+    color: #E8D3A2;
 }
 
 hr {
@@ -147,4 +157,14 @@ hr {
     margin: auto;
     background-color: #E8D3A2;
 }
+}
+
+button.navbar-toggler {
+    border: 1px solid #E8D3A2;
+    background-color: #E8D3A2;
+}
+
+span.navbar-toggler-icon {
+    color: #E8D3A2;
+    background-color: #E8D3A2;
 }
